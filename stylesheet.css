@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Dosis');
 body{
   background-color:  #E0D4C5;
 }
@@ -97,15 +97,24 @@ top: 20%;
   
 /* Regular 18 */
 
-font-family: Roboto;
+font-family: Dosis;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+text-align: justify;
+font-size: 24px;
 line-height: 30px;
 /* or 167% */
 
 
 color: #201C2A;
+}
+
+.translate{
+  position: absolute;
+    width: 746px;
+    height: 498px;
+    left: 90%;
+    top: 100px;
 }
 
 .terç{
@@ -545,6 +554,7 @@ top: 30%;
   left: 3.85%;
   right: 85.99%;
   width: 90%;
+  text-justify:inter-word
 }
 /* Successio*/
 .textmolins{
