@@ -116,4 +116,3 @@ window.sr = ScrollReveal();
     duration: 2000,
     reset: true
     });
-    

@@ -46,11 +46,12 @@ body{
 
   .pre{
     position: absolute;
-width: 278px;
-height: 66px;
+width: 53%;
+height: 80%;
 left: 3.85%;
 right: 85.99%;
-top: 112px;
+top: 10%;
+text-align: justify;
 
 
 
@@ -111,8 +112,7 @@ color: #201C2A;
 
 .translate{
   position: absolute;
-    width: 746px;
-    height: 498px;
+   
     left: 90%;
     top: 100px;
 }
@@ -165,7 +165,7 @@ color: #201C2A;
  
   left: 60%;
   right: 85.99%;
-  top: 112px;
+  top: 311px;
   
   
   
@@ -186,7 +186,7 @@ color: #201C2A;
 
 left: 60%;
   right: 85.99%;
-top: 215px;
+top: 408px;
 
 /* Regular 16 */
 
@@ -409,7 +409,7 @@ left: 60%;
 .textmolins{
   position: absolute;
   width: 53%;
-height: 80%;
+
 left: 3.85%;
 right: 85.99%;
 top: 30%;
