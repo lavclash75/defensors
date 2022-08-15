@@ -1,0 +1,568 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+body{
+  background-color:  #E0D4C5;
+}
+.menu_items{
+  display: flex;
+  list-style: none;
+  margin-right: 30px;
+  margin-left: 23px;
+}
+.menu_items li{
+  border-radius: 3px;
+  margin: 0 5px ;
+}
+.menu_items li a{
+  padding: 30px 15px;
+  text-decoration: none ;
+  display: block;
+  color: #201C2A;
+  font-size: 24px;
+  font-family: Roboto; 
+  position: relative;
+}
+
+
+.qui{
+  position: absolute;
+  width: 400px;
+  height: 66px;
+  left: 3.85%;
+  right: 85.99%;
+  top: 112px;
+  
+  
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 66px;
+  
+  letter-spacing: 1px;
+  
+  color: #201C2A;
+}
+
+  .pre{
+    position: absolute;
+width: 53%;
+height: 80%;
+left: 3.85%;
+right: 85.99%;
+top: 10%;
+text-align: justify;
+
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 50px;
+line-height: 66px;
+
+letter-spacing: 1px;
+
+color: #201C2A;
+  }
+.presentacio{
+  position: absolute;
+width: 746px;
+height: 498px;
+left: 60%;
+top: 291px;
+
+background: url(/images/presentacio.jpg);
+border-radius: 36px;
+}
+.quisom{
+  position: absolute;
+  width: 746px;
+  height: 498px;
+  left: 60%;
+  top: 291px;
+  
+  background: url(/images/qui.png);
+  border-radius: 36px;
+}
+.text{
+  position: absolute;
+  width: 53%;
+height: 80%;
+left: 3.85%;
+right: 85.99%;
+top: 20%;
+
+}
+.font{
+  
+/* Regular 18 */
+
+font-family: Dosis;
+font-style: normal;
+font-weight: normal;
+text-align: justify;
+font-size: 24px;
+line-height: 30px;
+/* or 167% */
+
+
+color: #201C2A;
+}
+
+.translate{
+  position: absolute;
+   
+    left: 90%;
+    top: 100px;
+}
+
+.terç{
+  position: absolute;
+height: 108px;
+width: 50%;
+left: 3.85%;
+right: 85.99%;
+top: 311px;
+
+/* Medium 36 */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 48px;
+/* or 133% */
+
+
+/* Colour/Main/Blue/900 */
+
+color: #201C2A;
+}
+.terçt{
+  position: absolute;
+  width: 46%;
+  height: 404px;
+  left: 3.85%;
+  right: 85.99%;
+  top: 408px;
+  
+  /* Regular 16 */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  
+  
+  color: #201C2A;
+}
+.uniform{
+  position: absolute;
+ width: 20%;
+ 
+  left: 60%;
+  right: 85.99%;
+  top: 311px;
+  
+  
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 66px;
+  
+  letter-spacing: 1px;
+  
+  color: #201C2A;
+
+}
+.unidiv{
+  position: absolute;
+  width: 30%;
+
+left: 60%;
+  right: 85.99%;
+top: 408px;
+
+/* Regular 16 */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #201C2A;
+}
+.napoleonic{
+  display: none;
+  position: absolute;
+height: 638px;
+width: 628px;
+left: 973px;
+top: 402px;
+
+background: url(images/napoleonic.jpg);
+
+}
+.heroines{
+  position: absolute;
+height: 48px;
+
+left: 3.85%;
+  right: 85.99%;
+
+top: 110%;
+
+/* Medium 36 */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 48px;
+/* identical to box height, or 133% */
+
+
+/* Colour/Main/Blue/900 */
+
+color: #201C2A;
+
+}
+.sete{
+  position: absolute;
+ 
+  width: 50%;
+  left: 3.85%;
+    right: 85.99%;
+  
+  top: 210%;
+  
+  /* Medium 36 */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  
+  
+  /* Colour/Main/Blue/900 */
+  
+  color: #201C2A;
+  
+}
+.unisete{
+  position: absolute;
+ 
+  width: 20%;
+  left: 60%;
+    right: 85.99%;
+  
+  top: 210%;
+  
+  /* Medium 36 */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  
+  
+  /* Colour/Main/Blue/900 */
+  
+  color: #201C2A;
+}
+.divset{
+  position: absolute;
+ 
+  width: 50%;
+  left: 3.85%;
+    right: 85.99%;
+  
+  top: 220%;
+  
+  /* Medium 36 */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  
+  
+  /* Colour/Main/Blue/900 */
+  
+  color: #201C2A;
+}
+.setdivuniform{
+  position: absolute;
+ 
+  width: 30%;
+  left: 60%;
+    right: 85.99%;
+  
+  top: 220%;
+  
+  /* Medium 36 */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  
+  
+  /* Colour/Main/Blue/900 */
+  
+  color: #201C2A;
+}
+.lema{
+  position: absolute;
+ 
+  width: 30%;
+  left: 60%;
+    right: 85.99%;
+  
+  top: 250%;
+  
+  /* Medium 36 */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  
+  
+  /* Colour/Main/Blue/900 */
+  
+  color: #201C2A;
+}
+.divlema{
+  position: absolute;
+ 
+  width: 30%;
+  left: 60%;
+    right: 85.99%;
+  
+  top: 260%;
+  
+  /* Medium 36 */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  /* identical to box height, or 133% */
+  
+  
+  /* Colour/Main/Blue/900 */
+  
+  color: #201C2A;
+}
+.bandera{
+  position: absolute;
+  top: 270%;
+  width: 319.5px;
+height: 307.5px;
+border-radius: 32px;
+left: 60%;
+    right: 85.99%;
+}
+.imgbandera{position: absolute;
+  top: 280%;
+  width: 319.5px;
+height: 307.5px;
+border-radius: 32px;
+left: 60%;
+    right: 85.99%;}
+  /* Successio*/
+.molins{
+  position: absolute;
+  width: 80%;
+  height: 60%;
+  left: 3.85%;
+  right: 85.99%;
+  top: 20%;
+  
+  
+  
+  font-family: Roboto;
+  
+  
+  color: #201C2A;
+  }
+.textmolins{
+  position: absolute;
+  width: 53%;
+
+left: 3.85%;
+right: 85.99%;
+top: 30%;
+}
+@media only screen and (max-width: 768px) {
+  /* Inici i qui som */
+  .presentacio{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 1500px;
+  }
+  .text{
+    position: absolute;
+    width: 80%;
+  height: 100%;
+  left: 3.85%;
+  right: 85.99%;
+  top: 20%;
+  
+  }
+  .quisom{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+    top: 1500px;
+  }
+  /* Napoleonic */
+ .heroines{
+  top: 210%;
+  left: 3.85%;
+  right: 85.99%;
+  
+ }
+ .terç{
+  position: absolute;
+  height: 108px;
+  width: 100%;
+  left: 3.85%;
+  right: 85.99%;
+  top: 30%;
+  
+  /* Medium 36 */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 48px;
+  /* or 133% */
+  
+  
+  /* Colour/Main/Blue/900 */
+  
+  color: #201C2A;
+ }
+ .terçt{
+  position: absolute;
+  width: 90%;
+  height: 404px;
+  left: 3.85%;
+  right: 85.99%;
+  top: 408px;
+  
+  /* Regular 16 */
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+  
+  
+  color: #201C2A;
+ }
+ .uniform{
+  
+  top: 130%;
+  left: 3.85%;
+  right: 85.99%;
+ }
+ .unidiv{
+  top: 140%;
+  left: 3.85%;
+  right: 85.99%;
+  width: 90%;
+ }
+ .sete{
+  top: 280%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 48px;
+  left: 3.85%;
+  right: 85.99%;
+  width: 90%;
+ }
+ .unisete{
+  top: 500%;
+  left: 3.85%;
+  right: 85.99%;
+  width: 90%;
+  
+ }
+ .setdivuniform{
+  top: 510%;
+  left: 3.85%;
+  right: 85.99%;
+  width: 90%;
+  
+}
+.lema{
+  top: 560%;
+  left: 3.85%;
+  right: 85.99%;
+  width: 90%;
+}
+.divlema{
+  top: 570%;
+  left: 3.85%;
+  right: 85.99%;
+  width: 90%;
+}
+.bandera{
+  top: 590%;
+  left: 3.85%;
+  right: 85.99%;
+  width: 90%;
+}
+.imgbandera{
+  top: 600%;
+  left: 3.85%;
+  right: 85.99%;
+  width: 90%;
+}
+.divset{
+  top: 290%;
+  left: 3.85%;
+  right: 85.99%;
+  width: 90%;
+  text-justify:inter-word
+}
+/* Successio*/
+.textmolins{
+  position: absolute;
+  width: 80%;
+
+left: 3.85%;
+right: 85.99%;
+top: 30%;
+} 
+}
