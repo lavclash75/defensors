@@ -1,9 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 export default function Contacte() {
   return (
     <React.Fragment>
+     
+
           <header class="header">
       <a href="/" class="logo">Defensors de girona</a>
       <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -20,7 +23,9 @@ export default function Contacte() {
 
 
   </header>
+ 
         
     </React.Fragment>
+    
   )
 }
